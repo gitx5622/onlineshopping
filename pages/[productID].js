@@ -22,7 +22,7 @@ const ProductDetails = () => {
             <Navbar/>
             <div style={{display:"flex", flexWrap: "wrap", width: "100%"}}>
                 <div style={{paddingLeft:"20px", width: "30%"}}>
-                    <img src={productURL} alt="product-details-image" width={300} height={350} />
+                    <Image src={productURL} alt="product-details-image" width={300} height={350} />
                 </div>
                 <div style={{width:"70%"}}>
                     <Panel>

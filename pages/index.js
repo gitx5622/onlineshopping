@@ -135,7 +135,7 @@ const Index = () => {
                 <Modal.Header>
                     <Modal.Title>
                         <div style={{display:"flex", gap: "1em"}}>
-                            <img src={Brand} width={50} height={50} alt="brand"/>
+                            <Image src={Brand} width={50} height={50} alt="brand"/>
                             <h4>ONLINE SHOPPING KENYA</h4>
                         </div>
                     </Modal.Title>

@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c77f7c1f-f65b-41c4-ad25-73cdd29dce5b" name="Changes" comment="" />
+    <list default="true" id="c77f7c1f-f65b-41c4-ad25-73cdd29dce5b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/components/productList.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/productList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/[productID].js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/[productID].js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
