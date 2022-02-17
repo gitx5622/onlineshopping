@@ -1,7 +1,7 @@
 /// <reference types="cypress"/>
 
 describe('it should visits main page', () => {
-    beforeEach(() => {
+    before(() => {
         cy.visit("http://localhost:3000")
     })
     it('The react application correctly loads', () => {
