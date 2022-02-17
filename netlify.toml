@@ -1,4 +1,5 @@
 [[plugins]]
-package = "netlify-plugin-cypress"
+    package = "netlify-plugin-cypress"
+    
 [plugins.inputs]
     record = true
