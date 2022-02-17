@@ -2,7 +2,7 @@
 
 describe('it should visits main page', () => {
     beforeEach(() => {
-        cy.visit("https://onlineshopping.toprated.co.ke")
+        cy.visit("http://localhost:3000")
     })
     it('The react application correctly loads', () => {
         cy.contains("ONLINE SHOPPING KENYA").should("exist")
