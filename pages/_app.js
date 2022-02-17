@@ -4,12 +4,12 @@ import { useStore } from '../state';
 import '../styles/globals.css';
 import Head from "next/head";
 
-function Wamu({ Component, pageProps }) {
+function OnlineShopping({ Component, pageProps }) {
   const store = useStore();
   return (
     <Provider store={store}>
       <Head>
-        <title>Wamu Online Shopping</title>
+        <title>Online Shopping Kenya</title>
         <meta name="viewport" content="initial-scale=1, width=device-width" />
       </Head>
       <Component {...pageProps} />
@@ -17,4 +17,4 @@ function Wamu({ Component, pageProps }) {
   );
 }
 
-export default Wamu;
+export default OnlineShopping;

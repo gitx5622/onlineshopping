@@ -1,5 +1,5 @@
 {
-  "name": "wamu",
+  "name": "online-shopping",
   "private": true,
   "scripts": {
     "dev": "next dev",

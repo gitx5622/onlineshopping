@@ -1,5 +1,6 @@
 import React from 'react';
-import ProductDetails from '../productDetails';
+import ProductDetails from '../products/productDetails';
+import Login from '../users/login';
 
 
 const Dashboard = ({ section }) => {
@@ -7,8 +8,12 @@ const Dashboard = ({ section }) => {
         switch (section) {
             case 'product-details':
                 return (
-                    <ProductDetails />
+                    <ProductDetails/>
                 )
+                case 'login':
+                    return (
+                        <Login/>
+                    )
         };
     }
     return (
