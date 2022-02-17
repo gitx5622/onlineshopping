@@ -2,7 +2,7 @@ import React from 'react';
 import { Divider, Radio, Modal, Button, toaster, Notification } from "rsuite";
 import { getAllCategories, getProducts } from "../../state/actions/productAction";
 import { useDispatch, useSelector } from "react-redux";
-import ProductList from "../../components/productList";
+import ProductList from "../products/productList";
 import Navbar from "../../components/navbar";
 import { BoxLoading } from 'react-loadingg';
 import { getUserCarts } from "../../state/actions/cartAction";
