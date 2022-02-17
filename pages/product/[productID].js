@@ -2,8 +2,8 @@ import React, {useEffect} from 'react';
 import { useDispatch, useSelector} from "react-redux";
 import { useRouter} from "next/router";
 import { Tag, Panel} from 'rsuite';
-import {getSingleProduct} from "../state/actions/productAction";
-import Navbar from "../components/navbar";
+import {getSingleProduct} from "../../state/actions/productAction";
+import Navbar from "../../components/navbar";
 import Image from "next/image";
 
 const ProductDetails = () => {
