@@ -7,7 +7,7 @@ const ProductList = ({product_id, title, price, image, rating }) => {
     const router = useRouter();
     return (
            <Panel bordered style={{width:"250px", marginBottom:"10px"}}>
-               <div style={{cursor: "pointer"}} onClick={() => router.push(`/${product_id}`)}>
+               <div style={{cursor: "pointer"}} onClick={() => router.push(`/products/${product_id}`)}>
                    <Image src={image} width={300} height={350} alt={title} />
                </div>
                <Rate defaultValue={rating.rate} />
