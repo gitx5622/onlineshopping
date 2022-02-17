@@ -86,5 +86,4 @@ const Navbar = ({itemCart}) => {
         </div>
     );
 };
-
 export default Navbar;
