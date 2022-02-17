@@ -21,9 +21,7 @@ const ProductDetails = () => {
         <div>
             <Navbar/>
             <div style={{display:"flex", flexWrap: "wrap", width: "100%"}}>
-                <div style={{paddingLeft:"20px", width: "30%"}}>
-                    <Image src={productURL} alt="product-details-image" width={300} height={350} />
-                </div>
+                <ProductDetails productID={productID}/>
                 <div style={{width:"70%"}}>
                     <Panel>
                     <Tag color="orange">{product.category}</Tag>
