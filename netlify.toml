@@ -1,0 +1,6 @@
+[[plugins]]
+    package = "netlify-plugin-cypress"
+ [plugins.inputs.preBuild]
+    enabled = true
+    start = 'netlify dev'
+    wait-on = 'http://localhost:3000'
