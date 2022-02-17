@@ -12,7 +12,7 @@ const ProductDetails = () => {
 
     const productSelector = useSelector(state => state.productState);
     const { product } = productSelector;
-    const productURL = product?.image;
+
     useEffect(() => {
         getSingleProduct(dispatch, productID)
     }, [dispatch, productID])
@@ -20,7 +20,7 @@ const ProductDetails = () => {
         <div>
             <Navbar/>
             <div style={{display:"flex", flexWrap: "wrap", width: "100%"}}>
-                <ProductDetails productURL={productURL}/>
+                <ProductDetails/>
                 <div style={{width:"70%"}}>
                     <Panel>
                     <Tag color="orange">{product.category}</Tag>
