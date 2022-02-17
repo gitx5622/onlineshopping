@@ -8,11 +8,10 @@ executors:
 workflows:
   build:
     jobs:
-      - cypress/install:
-          build: 'npm run build' # run a custom app build step
       - cypress/run:
           requires:
             - cypress/install
+          executor: with-chrome
           record: true # record results on Cypress Dashboard
           parallel: true # split all specs across machines
           parallelism: 4 # use 4 CircleCI machines to finish quickly
