@@ -25,10 +25,10 @@ jobs:
       # The orb install-packages step will also automatically cache them for faster future runs.
       - node/install-packages:
           # If you are using yarn, change the line below from "npm" to "yarn"
-          pkg-manager: npm
+          pkg-manager: npx
       - run:
           name: Run tests
-          command: npm test
+          command: npx cypress run --record --key 86b82f73-dce5-47e8-9852-de1068aa2f15
 
 workflows:
   # Below is the definition of your workflow.
