@@ -4,7 +4,6 @@ import { useRouter} from "next/router";
 import { Tag, Panel} from 'rsuite';
 import {getSingleProduct} from "../../state/actions/productAction";
 import Navbar from "../../components/navbar";
-import Image from "next/image";
 
 const ProductDetails = () => {
     const router = useRouter();
@@ -21,7 +20,7 @@ const ProductDetails = () => {
         <div>
             <Navbar/>
             <div style={{display:"flex", flexWrap: "wrap", width: "100%"}}>
-                <ProductDetails productID={productID}/>
+                <ProductDetails productURL={productURL}/>
                 <div style={{width:"70%"}}>
                     <Panel>
                     <Tag color="orange">{product.category}</Tag>

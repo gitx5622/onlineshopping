@@ -7,13 +7,13 @@ import Head from "next/head";
 function Wamu({ Component, pageProps }) {
   const store = useStore();
   return (
-      <Provider store={store}>
-          <Head>
-              <title>Wamu Online Shopping</title>
-              <meta name="viewport" content="initial-scale=1, width=device-width" />
-          </Head>
-        <Component {...pageProps} />
-      </Provider>
+    <Provider store={store}>
+      <Head>
+        <title>Wamu Online Shopping</title>
+        <meta name="viewport" content="initial-scale=1, width=device-width" />
+      </Head>
+      <Component {...pageProps} />
+    </Provider>
   );
 }
 
