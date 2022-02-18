@@ -83,6 +83,7 @@ const Login = () => {
                                     name="username"
                                     value={loginCredentials.username}
                                     type="text"
+                                    data-test="username"
                                     onChange={handleLoginChange}
                                     style={{ border: "1px solid #4b658433", borderRadius: "5px" }} />
                                 <label>Password</label>
@@ -90,6 +91,7 @@ const Login = () => {
                                     name="password"
                                     value={loginCredentials.password}
                                     type="password"
+                                    data-test="password"
                                     onChange={handleLoginChange}
                                     style={{ border: "1px solid #4b658433", borderRadius: "5px" }} />
                                 <Divider />
@@ -99,6 +101,7 @@ const Login = () => {
                                 <Button
                                     type="submit"
                                     color="orange"
+                                    data-test="login-button"
                                     appearance="primary"
                                     loading={loginUserState.isLoading}>
                                     LOGIN
@@ -186,9 +189,9 @@ const Login = () => {
                         <h3>Home of products
                             where shopping is simplified</h3><br />
                         {loginState ?
-                            <Button appearance="ghost" onClick={() => setLoginState(false)}>Create an Account</Button>
+                            <Button data-test="create-account" appearance="ghost" onClick={() => setLoginState(false)}>Create an Account</Button>
                             :
-                            <Button appearance="ghost" onClick={() => setLoginState(true)}>Login here</Button>
+                            <Button data-test="login-account" appearance="ghost" onClick={() => setLoginState(true)}>Login here</Button>
                         }
                     </center>
                 </Panel>
