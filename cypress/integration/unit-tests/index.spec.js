@@ -10,7 +10,5 @@ describe('it should visits main page', () => {
         cy.get('[data-test="okay-button"]').click()
         cy.get('[data-test="okay-button"]').contains('Ok').should('not.exist')
         cy.get('[data-test="login"]').contains('Login').should("exist")
-        cy.get('[data-test="login"]').click()
-        cy.url().should('include', '/user/login')
     })
 })
