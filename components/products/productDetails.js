@@ -25,9 +25,9 @@ const ProductDetails = () => {
                     <h3>Product</h3>
                 </div>
                 <div style={{ width: "70%" }}>
-                    <Panel>
+                    <Panel data-test="single-product">
                         <Tag color="orange">{product?.category}</Tag>
-                        <h3>{product?.title}</h3>
+                        <h3 >{product?.title}</h3>
                         <h3>{product?.price}</h3>
                         <p>{product?.description}</p>
                     </Panel>

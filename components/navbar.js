@@ -60,6 +60,7 @@ const Navbar = ({itemCart}) => {
                     {loggedIn && (
                         <Button
                             color="orange"
+                            data-test="logout-button"
                             appearance="primary"
                             onClick={() => {
                                 localStorage.clear();
