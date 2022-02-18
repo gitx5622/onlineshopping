@@ -6,6 +6,5 @@ describe('it should visits main page', () => {
     })
     it('The react application correctly loads', () => {
         cy.contains("ONLINE SHOPPING KENYA").should("exist")
-        cy.contains("fakeStore API").should("exist")
     })
 })
