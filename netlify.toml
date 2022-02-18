@@ -14,7 +14,7 @@
 [[plugins]]
   package = "netlify-plugin-cypress"
 
-  # let's first test the site before Gatsby builds it
+  # let's first test the site before Next JS builds it
   [plugins.inputs.preBuild]
     enable = true
     start = 'npm run dev'
