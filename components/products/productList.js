@@ -3,12 +3,12 @@ import Image from 'next/image';
 import { useRouter} from "next/router";
 import {Rate, Panel, Button} from 'rsuite';
 
-const ProductList = ({product_id, title, category, price, image, rating }) => {
+const ProductList = ({product_id, title, price, image, rating }) => {
     const router = useRouter();
     return (
            <Panel bordered style={{width:"250px", marginBottom:"10px"}}>
-               <div style={{cursor: "pointer"}} onClick={() => router.push(`/${product_id}`)}>
-                   <img src={image} width={300} height={350} alt={title} />
+               <div style={{cursor: "pointer"}} onClick={() => router.push(`/products/${product_id}`)}>
+                   <Image src={image} width={300} height={350} alt={title} />
                </div>
                <Rate defaultValue={rating.rate} />
                <h5 style={{cursor: "pointer"}} onClick={() => router.push(`/${product_id}`)}>{title.slice(0, 25)}</h5>

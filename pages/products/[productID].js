@@ -1,11 +1,9 @@
 import React from 'react';
 import Dashboard from '../../components/dashboard/dashboard';
 
-const Login = () => {
-    
+const ProductDetails = () => {
     return (
-        <Dashboard section="login"/>
+        <Dashboard section="product-details"/>
     );
 };
-
-export default Login;
+export default ProductDetails;
