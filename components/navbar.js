@@ -72,7 +72,7 @@ const Navbar = ({itemCart}) => {
                     {!loggedIn && (
                         <Button
                             color="orange"
-                            data-testId="login"
+                            data-testid="login"
                             appearance="primary"
                             onClick={() => router.push('/user/login')}
                         >

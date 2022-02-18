@@ -10,8 +10,8 @@ describe('it should visits main page', () => {
         cy.contains("Ascending").should("exist")
     })
     it('onclick login it should navigste to login url', () => {
-        cy.get('[data-testId="login"]').should("exist")
-        cy.get('[data-testId="login"]').click()
+        cy.get('[data-testid="login"]').should("exist")
+        cy.get('[data-testid="login"]').click()
         cy.url().should('include', '/user/login')
     })
 })
