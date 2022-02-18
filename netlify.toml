@@ -25,11 +25,11 @@
 
   # then Netlify builds the site
   # and then our tests will run again, testing the built production version
-  [plugins.inputs.postBuild]
+  #[plugins.inputs.postBuild]
     # investigating why preBuild server has not been stopped
-    enable = true
+  #  enable = true
   # record = true
-    group = '2: Testing Production application'
+  # group = '2: Testing Production application'
 
   # but we do not want to run tests against the deployed site
   [plugins.inputs]
