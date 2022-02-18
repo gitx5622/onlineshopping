@@ -28,7 +28,7 @@
   [plugins.inputs.postBuild]
     # investigating why preBuild server has not been stopped
     enable = true
-    record = true
+  # record = true
     group = '2: Testing Production application'
 
   # but we do not want to run tests against the deployed site
