@@ -21,7 +21,7 @@
     wait-on = 'http://localhost:3000'
     wait-on-timeout = '30' # seconds
     record = true
-    group = '1: testing develop site'
+    group = '1: Testing Development application'
 
   # then Netlify builds the site
   # and then our tests will run again, testing the built production version
@@ -29,7 +29,7 @@
     # investigating why preBuild server has not been stopped
     enable = true
     record = true
-    group = '2: testing built site'
+    group = '2: Testing Production application'
 
   # but we do not want to run tests against the deployed site
   [plugins.inputs]
