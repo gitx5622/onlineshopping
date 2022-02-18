@@ -8,6 +8,8 @@ executors:
 workflows:
   build:
     jobs:
+      - cypress/install:
+          build: npm run build
       - cypress/run:
           requires:
             - cypress/install
