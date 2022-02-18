@@ -24,7 +24,7 @@ const Navbar = ({itemCart}) => {
         <div>
         <div style={{fontSize:"20px", paddingLeft:"20px", paddingRight:"20px", display: 'flex', justifyContent:'space-between'}}>
             <div style={{display:"flex", paddingTop:"5px"}}>
-                <img src={Brand} width={50} height={50} alt="brand"/>
+                <Image src={Brand} width={50} height={50} alt="brand"/>
                 <h5>ONLINE SHOPPING <br/>KENYA</h5>
             </div>
             <div className="middle-links">
@@ -72,6 +72,7 @@ const Navbar = ({itemCart}) => {
                     {!loggedIn && (
                         <Button
                             color="orange"
+                            data-testid="login"
                             appearance="primary"
                             onClick={() => router.push('/user/login')}
                         >
@@ -86,5 +87,4 @@ const Navbar = ({itemCart}) => {
         </div>
     );
 };
-
 export default Navbar;
