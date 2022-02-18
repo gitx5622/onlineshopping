@@ -30,6 +30,7 @@
   "devDependencies": {
     "imagemin-mozjpeg": "^9.0.0",
     "imagemin-optipng": "^8.0.0",
-    "imagemin-svgo": "^8.0.0"
+    "imagemin-svgo": "^8.0.0",
+    "sass": "^1.49.7"
   }
 }
