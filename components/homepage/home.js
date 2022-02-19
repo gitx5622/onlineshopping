@@ -30,9 +30,9 @@ const Home = () => {
     }, [dispatch, sortAscending, sortDescending]);
 
     if (typeof window !== 'undefined') {
-        window.onload = () => {
-            setOpen(true);
-        }
+        // window.onload = () => {
+        //     setOpen(true);
+        // }
         window.ononline = () => {
             toaster.push(onlineMessage)
         }
