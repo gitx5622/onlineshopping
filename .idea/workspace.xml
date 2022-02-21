@@ -2,53 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c77f7c1f-f65b-41c4-ad25-73cdd29dce5b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.circleci/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/brand.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/brand.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/cartBasket.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/cartBasket.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/productDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/productDetails.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/productList.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/productList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/axios/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/axios/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/axios/interceptors/internetConnection.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/axios/interceptors/internetConnection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/axios/interceptors/timedOutRequests.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/axios/interceptors/timedOutRequests.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/axios/interceptors/unAuthorized.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/axios/interceptors/unAuthorized.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress.json" beforeDir="false" afterPath="$PROJECT_DIR$/cypress.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/fixtures/example.json" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/fixtures/example.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/integration/index.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/integration/index.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/plugins/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/plugins/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/screenshots/index.test.js/it should visits main page -- The react application correctly loads (failed).png" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/screenshots/index.test.js/it should visits main page -- The react application correctly loads (failed).png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/support/commands.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/support/commands.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/support/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/support/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/videos/index.test.js.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/videos/index.test.js.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netlify.toml" beforeDir="false" afterPath="$PROJECT_DIR$/netlify.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_document.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_document.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/product/[productID].js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/product/[productID].js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/user/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/user/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vercel.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/vercel.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/state/actions/cartAction.js" beforeDir="false" afterPath="$PROJECT_DIR$/state/actions/cartAction.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/state/actions/productAction.js" beforeDir="false" afterPath="$PROJECT_DIR$/state/actions/productAction.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/state/actions/userLoginAction.js" beforeDir="false" afterPath="$PROJECT_DIR$/state/actions/userLoginAction.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/state/actions/userRegistrationAction.js" beforeDir="false" afterPath="$PROJECT_DIR$/state/actions/userRegistrationAction.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/state/dispatchTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/state/dispatchTypes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/state/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/state/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/state/reducers/cartReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/state/reducers/cartReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/state/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/state/reducers/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/state/reducers/productReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/state/reducers/productReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/state/reducers/userReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/state/reducers/userReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Home.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Home.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/navbar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/navbar.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,10 +22,8 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/pages/product/[productID].js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/cypress.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/pages/_document.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/components/productList.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/.gitignore" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/next.config.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/pages/_app.js" root0="FORCE_HIGHLIGHTING" />
@@ -88,10 +41,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../topratedprofessors" />
+    <property name="code.cleanup.on.save" value="true" />
+    <property name="format.on.save" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="optimize.imports.on.save" value="true" />
+    <property name="rearrange.code.on.save" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -130,6 +87,10 @@
       <workItem from="1645053177961" duration="1175000" />
       <workItem from="1645089026313" duration="6384000" />
       <workItem from="1645119261738" duration="205000" />
+      <workItem from="1645453047072" duration="161000" />
+      <workItem from="1645453871680" duration="859000" />
+      <workItem from="1645454771798" duration="1546000" />
+      <workItem from="1645458281493" duration="773000" />
     </task>
     <servers />
   </component>
